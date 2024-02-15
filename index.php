@@ -1165,6 +1165,58 @@ include('config.php');
 </div>
 </div>
 
+
+
+<div id="login" class="tokyo_tm_section">
+<div class="container">
+<div class="tokyo_tm_contact w-full float-left clear-both h-auto py-[100px] px-[0px]">
+<div class="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
+<div class="title_flex w-full h-auto clear-both flex justify-between items-end">
+<div class="left">
+<span class="inline-block bg-[rgba(0,0,0,.04)] uppercase py-[4px] px-[10px] font-semibold text-[12px] text-[#333] font-montserrat tracking-[0px] mb-[11px]">Admin Login Portal</span>
+<h3 class="font-extrabold font-montserrat">Authorised Dashboard Access</h3>
+</div>
+</div>
+</div>
+<div class="fields w-full float-left clear-both h-auto">
+
+<form method="post" class="contact_form" id="contact_form" autocomplete="off">
+
+<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
+
+<div class="empty_notice"><span>All Fields are Mandatory</span></div>
+
+<div class="first w-full float-left">
+
+<ul class="list-none">
+
+<li class="w-full mb-[30px] float-left">
+<input id="name" type="text" placeholder="Username" name="username">
+</li>
+
+<li class="w-full mb-[30px] float-left">
+<input id="email" type="email" placeholder="Email" name="useremail">
+</li>
+
+<li class="w-full mb-[30px] float-left">
+<input id="password" type="password" placeholder="Your Password Here" name="userpassword">
+</li>
+
+
+</ul>
+
+</div>
+
+<div class="tokyo_tm_button">
+<button type="submit" name="login" class="tokyo_tm_button form-control btn btn-outline-info">Login</button>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -1182,3 +1234,23 @@ include('config.php');
 </body>
 </html>
 <!-- section for website design ends here -->
+
+
+
+<?php 
+
+$username = $_POST['username'];
+$email = $_POST['useremail'];
+$userpassword = $_POST['userpassword'];
+
+$matchCredentials = mysqli_query($config,"SELECT * FROM login WHERE username='$username' AND email='$email' AND password='$userpassword'");
+
+if(mysqli_num_rows($matchCredentials)>0)
+{
+	echo "<script>alert('Login Successful')</script>";
+	session_start();
+	$_SESSION['loggedinUser'] = $email;
+	header('location:https://akriti.online/modules/dashboard/dashboard.php');
+}
+
+?>

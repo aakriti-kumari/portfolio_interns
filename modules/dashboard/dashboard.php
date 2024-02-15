@@ -1,9 +1,35 @@
 <?php 
-include('config.php');
+include('../../config.php');
+
+session_start();
+
+if(!isset($_SESSION['loggedinUser']))
+{
+
+    unset($_SESSION['loggedinUser']);
+    session_destroy();
+    header('location:https://akriti.online/');
+
+}
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+
+        <?php 
+
+            $fetchActiveSession = mysqli_query($config,"SELECT * FROM login WHERE email = '$_SESSION['loggedinUser']'");
+            while($row = mysqli_fetch_assoc($fetchActiveSession))
+            {
+                $activeuser = $row['username'];
+                $activeuserEmail = $row['email'];
+            }
+
+
+        ?>
         
 
         <meta charset="utf-8" />
@@ -46,8 +72,8 @@ include('config.php');
                     <span class="online-icon position-absolute end-0"><i class="mdi mdi-record text-success"></i></span>
                 </div>
                 <div class="media-body ms-2 user-detail align-self-center">
-                    <h5 class="font-14 m-0 fw-bold">Akriti Kumari </h5>  
-                    <p class="opacity-50 mb-0">akriti@gmail.com</p>          
+                    <h5 class="font-14 m-0 fw-bold"><?php echo $activeuser; ?></h5>  
+                    <p class="opacity-50 mb-0"><?php echo $activeuserEmail; ?></p>          
                 </div>                    
             </div>
             <div class="border-end">
