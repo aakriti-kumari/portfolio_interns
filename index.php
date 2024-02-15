@@ -1249,10 +1249,10 @@ if(mysqli_num_rows($matchCredentials)>0)
 {
 	session_start();
 	$_SESSION['loggedinUser'] = $email;
-	
+
 	echo "<script>alert('Login Successful')</script>";
 	
-	header('location:https://akriti.online/modules/dashboard/dashboard.php');
+	header('location:https://akriti.online/dashboard.php');
 }
 
 ?>

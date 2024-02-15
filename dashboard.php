@@ -6,9 +6,9 @@ session_start();
 if(!isset($_SESSION['loggedinUser']))
 {
     session_start();
-    unset($_SESSION['loggedinUser']);
+    session_unset();
     session_destroy();
-    redirect('https://akriti.online/');
+   header('location:https://akriti.online/');
 
 }
 
