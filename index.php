@@ -1247,9 +1247,11 @@ $matchCredentials = mysqli_query($config,"SELECT * FROM login WHERE username='$u
 
 if(mysqli_num_rows($matchCredentials)>0)
 {
-	echo "<script>alert('Login Successful')</script>";
 	session_start();
 	$_SESSION['loggedinUser'] = $email;
+	
+	echo "<script>alert('Login Successful')</script>";
+	
 	header('location:https://akriti.online/modules/dashboard/dashboard.php');
 }
 
