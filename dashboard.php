@@ -40,14 +40,14 @@ if(!isset($_SESSION['loggedinUser']))
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
                 <!-- App favicon -->
-                <link rel="shortcut icon" href="assets/images/favicon.ico">
+                <link rel="shortcut icon" href="modules/dashboard/assets/images/favicon.ico">
 
        
 
          <!-- App css -->
-         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+         <link href="modules/dashboard/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+         <link href="modules/dashboard/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+         <link href="modules/dashboard/assets/css/app.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -58,17 +58,17 @@ if(!isset($_SESSION['loggedinUser']))
             <div class="brand">
                 <a href="index.html" class="logo">
                     <span>
-                        <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                        <img src="modules/dashboard/assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
                     </span>
                     <span>
-                        <img src="assets/images/logo.png" alt="logo-large" class="logo-lg logo-light">
-                        <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                        <img src="modules/dashboard/assets/images/logo.png" alt="logo-large" class="logo-lg logo-light">
+                        <img src="modules/dashboard/assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
                     </span>
                 </a>
             </div>
             <div class="sidebar-user-pro media border-end">                    
                 <div class="position-relative mx-auto">
-                    <img src="assets/images/users/user-4.jpg" alt="user" class="rounded-circle thumb-md">
+                    <img src="modules/dashboard/assets/images/users/user-4.jpg" alt="user" class="rounded-circle thumb-md">
                     <span class="online-icon position-absolute end-0"><i class="mdi mdi-record text-success"></i></span>
                 </div>
                 <div class="media-body ms-2 user-detail align-self-center">
@@ -578,7 +578,7 @@ if(!isset($_SESSION['loggedinUser']))
                             <li>
                                 <!-- <div class="update-msg text-center position-relative">
                                     <button type="button" class="btn-close position-absolute end-0 me-2" aria-label="Close"></button>
-                                    <img src="assets/images/speaker-light.png" alt="" class="" height="110">
+                                    <img src="modules/dashboard/assets/images/speaker-light.png" alt="" class="" height="110">
                                     <h5 class="mt-0">Mannat Themes</h5>
                                     <p class="mb-3">We Design and Develop Clean and High Quality Web Applications</p>
                                     <a href="javascript: void(0);" class="btn btn-outline-warning btn-sm">Upgrade your plan</a>
@@ -601,13 +601,13 @@ if(!isset($_SESSION['loggedinUser']))
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                         aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-xxs rounded">
+                        <img src="modules/dashboard/assets/images/flags/us_flag.jpg" alt="" class="thumb-xxs rounded">
                     </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
-                            <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
-                            <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
-                            <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
+                            <a class="dropdown-item" href="#"><img src="modules/dashboard/assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
+                            <a class="dropdown-item" href="#"><img src="modules/dashboard/assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
+                            <a class="dropdown-item" href="#"><img src="modules/dashboard/assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
+                            <a class="dropdown-item" href="#"><img src="modules/dashboard/assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
                         </div>
                     </li><!--end topbar-language-->
             
@@ -627,7 +627,7 @@ if(!isset($_SESSION['loggedinUser']))
                                     <small class="float-end text-muted ps-2">2 min ago</small>
                                     <div class="media">
                                         <div class="avatar-md bg-soft-primary">
-                                            <img src="assets/images/users/user-1.jpg" alt="" class="thumb-sm rounded-circle">
+                                            <img src="modules/dashboard/assets/images/users/user-1.jpg" alt="" class="thumb-sm rounded-circle">
                                         </div>
                                         <div class="media-body align-self-center ms-2 text-truncate">
                                             <h6 class="my-0 fw-normal text-dark">Your order is placed</h6>
@@ -640,7 +640,7 @@ if(!isset($_SESSION['loggedinUser']))
                                     <small class="float-end text-muted ps-2">10 min ago</small>
                                     <div class="media">
                                         <div class="avatar-md bg-soft-primary">
-                                            <img src="assets/images/users/user-4.jpg" alt="" class="thumb-sm rounded-circle">
+                                            <img src="modules/dashboard/assets/images/users/user-4.jpg" alt="" class="thumb-sm rounded-circle">
                                         </div>
                                         <div class="media-body align-self-center ms-2 text-truncate">
                                             <h6 class="my-0 fw-normal text-dark">Meeting with designers</h6>
@@ -653,7 +653,7 @@ if(!isset($_SESSION['loggedinUser']))
                                     <small class="float-end text-muted ps-2">40 min ago</small>
                                     <div class="media">
                                         <div class="avatar-md bg-soft-primary">
-                                            <img src="assets/images/users/user-2.jpg" alt="" class="thumb-sm rounded-circle">
+                                            <img src="modules/dashboard/assets/images/users/user-2.jpg" alt="" class="thumb-sm rounded-circle">
                                         </div>
                                         <div class="media-body align-self-center ms-2 text-truncate">
                                             <h6 class="my-0 fw-normal text-dark">UX 3 Task complete.</h6>
@@ -666,7 +666,7 @@ if(!isset($_SESSION['loggedinUser']))
                                     <small class="float-end text-muted ps-2">1 hr ago</small>
                                     <div class="media">
                                         <div class="avatar-md bg-soft-primary">
-                                            <img src="assets/images/users/user-5.jpg" alt="" class="thumb-sm rounded-circle">
+                                            <img src="modules/dashboard/assets/images/users/user-5.jpg" alt="" class="thumb-sm rounded-circle">
                                         </div>
                                         <div class="media-body align-self-center ms-2 text-truncate">
                                             <h6 class="my-0 fw-normal text-dark">Your order is placed</h6>
@@ -679,7 +679,7 @@ if(!isset($_SESSION['loggedinUser']))
                                     <small class="float-end text-muted ps-2">2 hrs ago</small>
                                     <div class="media">
                                         <div class="avatar-md bg-soft-primary">
-                                            <img src="assets/images/users/user-3.jpg" alt="" class="thumb-sm rounded-circle">
+                                            <img src="modules/dashboard/assets/images/users/user-3.jpg" alt="" class="thumb-sm rounded-circle">
                                         </div>
                                         <div class="media-body align-self-center ms-2 text-truncate">
                                             <h6 class="my-0 fw-normal text-dark">Payment Successfull</h6>
@@ -784,7 +784,7 @@ if(!isset($_SESSION['loggedinUser']))
                         <a class="nav-link dropdown-toggle nav-user" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
                             <div class="d-flex align-items-center">
-                                <img src="assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
+                                <img src="modules/dashboard/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
                                 <div>
                                     <small class="d-none d-md-block font-11">Admin</small>
                                     <span class="d-none d-md-block fw-semibold font-12">Akriti Kumari <i
@@ -862,7 +862,7 @@ if(!isset($_SESSION['loggedinUser']))
                                         <div class="text-center py-3 mb-3">
                                             <a href="#" class="btn btn-primary">Buy Now</a>
                                         </div>
-                                        <img src="assets/images/small/business.png" alt="" class="img-fluid px-3 mb-2">
+                                        <img src="modules/dashboard/assets/images/small/business.png" alt="" class="img-fluid px-3 mb-2">
                                     </div>
                                 </div><!--end card-body--> 
                             </div><!--end card-->                            
@@ -1006,31 +1006,31 @@ if(!isset($_SESSION['loggedinUser']))
                                             </thead>
                                             <tbody>
                                                 <tr>  
-                                                    <td><img src="assets/images/logos/chrome.png" alt="" height="20" class="me-2">Chrome</td> 
+                                                    <td><img src="modules/dashboard/assets/images/logos/chrome.png" alt="" height="20" class="me-2">Chrome</td> 
                                                     <td>10853<small class="text-muted">(52%)</small></td>                                   
                                                     <td> 52.80%</td>
                                                     <td>566<small class="text-muted">(92%)</small></td>
                                                 </tr><!--end tr-->     
                                                 <tr>                                                        
-                                                    <td><img src="assets/images/logos/micro-edge.png" alt="" height="20" class="me-2">Microsoft Edge</td>
+                                                    <td><img src="modules/dashboard/assets/images/logos/micro-edge.png" alt="" height="20" class="me-2">Microsoft Edge</td>
                                                     <td>2545<small class="text-muted">(47%)</small></td>                                   
                                                     <td> 47.54%</td>
                                                     <td>498<small class="text-muted">(81%)</small></td>
                                                 </tr><!--end tr-->    
                                                 <tr>                                                        
-                                                    <td><img src="assets/images/logos/in-explorer.png" alt="" height="20" class="me-2">Internet-Explorer</td>
+                                                    <td><img src="modules/dashboard/assets/images/logos/in-explorer.png" alt="" height="20" class="me-2">Internet-Explorer</td>
                                                     <td>1836<small class="text-muted">(38%)</small></td>                                   
                                                     <td> 41.12%</td>
                                                     <td>455<small class="text-muted">(74%)</small></td>
                                                 </tr><!--end tr-->    
                                                 <tr>                                                        
-                                                    <td><img src="assets/images/logos/opera.png" alt="" height="20" class="me-2">Opera</td>
+                                                    <td><img src="modules/dashboard/assets/images/logos/opera.png" alt="" height="20" class="me-2">Opera</td>
                                                     <td>1958<small class="text-muted">(31%)</small></td>                                   
                                                     <td> 36.82%</td>
                                                     <td>361<small class="text-muted">(61%)</small></td>
                                                 </tr><!--end tr-->    
                                                 <tr>                                                        
-                                                    <td><img src="assets/images/logos/chrome.png" alt="" height="20" class="me-2">Chrome</td>
+                                                    <td><img src="modules/dashboard/assets/images/logos/chrome.png" alt="" height="20" class="me-2">Chrome</td>
                                                     <td>10853<small class="text-muted">(52%)</small></td>                                   
                                                     <td> 52.80%</td>
                                                     <td>566<small class="text-muted">(92%)</small></td>
@@ -1241,12 +1241,12 @@ if(!isset($_SESSION['loggedinUser']))
 
         <!-- Javascript  -->   
 
-        <script src="assets/plugins/apexcharts/apexcharts.min.js"></script>
-        <script src="assets/pages/analytics-index.init.js"></script>
+        <script src="modules/dashboard/assets/plugins/apexcharts/apexcharts.min.js"></script>
+        <script src="modules/dashboard/assets/pages/analytics-index.init.js"></script>
 
 
         <!-- App js -->
-        <script src="assets/js/app.js"></script>
+        <script src="modules/dashboard/assets/js/app.js"></script>
 
     </body>
     <!--end body-->
