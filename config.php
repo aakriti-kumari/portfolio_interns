@@ -1,13 +1,13 @@
 <?php 
 
 $hostname = 'localhost';
-$username = 'root';
-$password = 'Admin1234#@';
-$dbname = 'intern';
+$username = 'u287526217_ak_personal';
+$password = 'Million$2023#@';
+$dbname = 'u287526217_akriti_db';
 
 $config = mysqli_connect($hostname,$username,$password,$dbname);
 
-$base_address = "http://localhost/portfolio_interns/";
+$base_address = "https://akriti.online/";
 
 // if($config)
 // {
