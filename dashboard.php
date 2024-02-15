@@ -1,12 +1,12 @@
 <?php 
-include('config.php');
 
 session_start();
+include('config.php');
 
 if(!isset($_SESSION['loggedinUser']))
 {
     session_start();
-    session_unset();
+    unset($_SESSION['loggedinUser']);
     session_destroy();
    header('location:https://akriti.online/');
 
