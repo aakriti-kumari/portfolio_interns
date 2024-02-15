@@ -21,7 +21,7 @@ if(!isset($_SESSION['loggedinUser']))
 
         <?php 
 
-            $fetchActiveSession = mysqli_query($config,"SELECT * FROM login WHERE email = '$_SESSION['loggedinUser']'");
+            $fetchActiveSession = mysqli_query($config,"SELECT * FROM login WHERE email = '{$_SESSION['loggedinUser']}'");
             while($row = mysqli_fetch_assoc($fetchActiveSession))
             {
                 $activeuser = $row['username'];
