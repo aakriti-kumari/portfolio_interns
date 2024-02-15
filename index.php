@@ -10,9 +10,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/plugins.css">
-<link rel="stylesheet" href="assets/css/custom.css">
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="modules/assets/css/plugins.css">
+<link rel="stylesheet" href="modules/assets/css/custom.css">
+<link rel="stylesheet" href="modules/assets/css/main.css">
 <title>Akriti Portfolio</title>
 </head>
 <body>
@@ -28,7 +28,7 @@
 <div class="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
 <div class="logo" data-type="image"> 
 <a href="#">
-<img class="max-w-[100px] max-h-[40px]" src="assets/img/logo/dark.png" alt />
+<img class="max-w-[100px] max-h-[40px]" src="modules/assets/img/logo/dark.png" alt />
 <h3 class="font-black font-poppins text-[25px] tracking-[4px]">AKRITI</h3>
 </a>
 </div>
@@ -59,7 +59,7 @@
 <div class="leftpart_inner w-full h-auto">
 <div class="logo" data-type="image"> 
 <a href="#">
-<img class="max-w-[150px]" src="assets/img/logo/dark.png" alt />
+<img class="max-w-[150px]" src="modules/assets/img/logo/dark.png" alt />
 <h3 class="font-poppins font-black text-[31px] tracking-[5px]">AKRITI</h3>
 </a>
 </div>
@@ -88,7 +88,7 @@
 <div class="tokyo_tm_home w-full min-h-[100vh] clear-both flex items-center justify-center relative">
 <div class="home_content flex items-center">
 <div class="avatar min-w-[300px] min-h-[300px] relative rounded-full" data-type="wave"> 
-<div class="image absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/slider/1.jpeg"></div>
+<div class="image absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="modules/assets/img/slider/1.jpeg"></div>
 </div>
 <div class="details ml-[80px]">
 <h3 class="name text-[55px] font-extrabold uppercase mb-[14px]">AKRITI <span>KUMARI</span></h3>
@@ -121,7 +121,7 @@
 </div>
 </div>
 <div class="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-<img class="min-w-full" src="assets/img/slider/1.jpeg" alt />
+<img class="min-w-full" src="modules/assets/img/slider/1.jpeg" alt />
 </div>
 <div class="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
 <h3 class="text-[22px] font-bold">AKRITI KUMARI</h3>
@@ -156,7 +156,7 @@
 </div>
 </div>
 <div class="tokyo_tm_button" data-position="left">
-<a href="assets/img/cv/1.jpg" download>
+<a href="modules/assets/img/cv/1.jpg" download>
 <span>Download CV</span>
 </a>
 </div>
@@ -216,19 +216,19 @@
 <div class="tokyo_tm_skill_list w-full h-auto clear-both float-left">
 <ul class="m-0 list-none">
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Bootstrap, Angular</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Bootstrap, Angular</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />React, Vue, Laravel</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />React, Vue, Laravel</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Stylus, Sass, Less</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Stylus, Sass, Less</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Gulp, Webpack, Grunt</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Gulp, Webpack, Grunt</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Tweenmax, GSAP</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Tweenmax, GSAP</span>
 </li>
 </ul>
 </div>
@@ -240,19 +240,19 @@
 <div class="tokyo_tm_skill_list w-full h-auto clear-both float-left">
 <ul class="m-0 list-none">
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Make UI/UX Design</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Make UI/UX Design</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Create Mobile App</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Create Mobile App</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Site Optimization</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Site Optimization</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Custom Website</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Custom Website</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Learn Ecommerce</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/assets/img/svg/rightarrow.svg" alt />Learn Ecommerce</span>
 </li>
 </ul>
 </div>
@@ -364,7 +364,7 @@
 </div>
 <div class="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
 <div class="image relative w-[60px] h-[60px]">
-<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full" data-img-url="assets/img/testimonials/1.jpg"></div>
+<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full" data-img-url="modules/assets/img/testimonials/1.jpg"></div>
 </div>
 <div class="info pl-[20px]">
 <h3 class="text-[16px] mb-[2px] font-semibold">Alexander Walker</h3>
@@ -380,7 +380,7 @@
 </div>
 <div class="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
 <div class="image relative w-[60px] h-[60px]">
-<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full" data-img-url="assets/img/testimonials/2.jpg"></div>
+<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full" data-img-url="modules/assets/img/testimonials/2.jpg"></div>
 </div>
 <div class="info pl-[20px]">
 <h3 class="text-[16px] mb-[2px] font-semibold">Isabelle Smith</h3>
@@ -396,7 +396,7 @@
 </div>
 <div class="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
 <div class="image relative w-[60px] h-[60px]">
-<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full" data-img-url="assets/img/testimonials/3.jpg"></div>
+<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full" data-img-url="modules/assets/img/testimonials/3.jpg"></div>
 </div>
 <div class="info pl-[20px]">
 <h3 class="text-[16px] mb-[2px] font-semibold">Baraka Clinton</h3>
@@ -435,7 +435,7 @@
 </div>
 <a class="tokyo_tm_full_link" href="#"></a>
 
-<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt />
+<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="modules/assets/img/news/1.jpg" alt />
 <div class="service_hidden_details opacity-0 invisible hidden absolute z-[-111]">
 <div class="service_popup_informations w-full h-auto clear-both float-left">
 <div class="descriptions w-full float-left">
@@ -458,7 +458,7 @@
 </div>
 <a class="tokyo_tm_full_link" href="#"></a>
 
-<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/2.jpg" alt />
+<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="modules/assets/img/news/2.jpg" alt />
 <div class="service_hidden_details opacity-0 invisible hidden absolute z-[-111]">
 <div class="service_popup_informations w-full h-auto clear-both float-left">
 <div class="descriptions w-full float-left">
@@ -481,7 +481,7 @@
 </div>
 <a class="tokyo_tm_full_link" href="#"></a>
 
-<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/3.jpg" alt />
+<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="modules/assets/img/news/3.jpg" alt />
 <div class="service_hidden_details opacity-0 invisible hidden absolute z-[-111]">
 <div class="service_popup_informations w-full h-auto clear-both float-left">
 <div class="descriptions w-full float-left">
@@ -504,7 +504,7 @@
 </div>
 <a class="tokyo_tm_full_link" href="#"></a>
 
-<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/4.jpg" alt />
+<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="modules/assets/img/news/4.jpg" alt />
 <div class="service_hidden_details opacity-0 invisible hidden absolute z-[-111]">
 <div class="service_popup_informations w-full h-auto clear-both float-left">
 <div class="descriptions w-full float-left">
@@ -527,7 +527,7 @@
 </div>
 <a class="tokyo_tm_full_link" href="#"></a>
 
-<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt />
+<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="modules/assets/img/news/1.jpg" alt />
 <div class="service_hidden_details opacity-0 invisible hidden absolute z-[-111]">
 <div class="service_popup_informations w-full h-auto clear-both float-left">
 <div class="descriptions w-full float-left">
@@ -550,7 +550,7 @@
 </div>
 <a class="tokyo_tm_full_link" href="#"></a>
 
-<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/2.jpg" alt />
+<img class="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="modules/assets/img/news/2.jpg" alt />
 <div class="service_hidden_details opacity-0 invisible hidden absolute z-[-111]">
 <div class="service_popup_informations w-full h-auto clear-both float-left">
 <div class="descriptions w-full float-left">
@@ -576,42 +576,42 @@
 <ul class="mt-[-2px] mr-[-10px] mb-[-2px] ml-[-2px] list-none pt-[2px] float-left pl-[2px]">
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/1.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/1.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/2.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/2.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/3.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/3.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/4.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/4.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/5.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/5.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/6.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/6.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/7.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/7.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/8.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/assets/img/partners/dark/8.png" alt />
 </div>
 </li>
 </ul>
@@ -753,8 +753,8 @@
 <div class="inner w-full h-auto clear-both float-left overflow-hidden relative">
 <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="Teresa Butler" data-category="Vimeo">
 <a class="popup-vimeo" href="https://vimeo.com/337293658">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/1-1.jpg" alt />
-<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/portfolio/5.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/1-1.jpg" alt />
+<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/portfolio/5.jpg"></div>
 </a>
 </div>
 </div>
@@ -763,8 +763,8 @@
 <div class="inner w-full h-auto clear-both float-left overflow-hidden relative">
 <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="Ashley Flores" data-category="Youtube">
 <a class="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/1-1.jpg" alt />
-<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/portfolio/6.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/1-1.jpg" alt />
+<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/portfolio/6.jpg"></div>
 </a>
 </div>
 </div>
@@ -773,8 +773,8 @@
 <div class="inner w-full h-auto clear-both float-left overflow-hidden relative">
 <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="Derek Smith" data-category="Soundcloud">
 <a class="soundcloude_link mfp-iframe audio" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/1-1.jpg" alt />
-<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/portfolio/4.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/1-1.jpg" alt />
+<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/portfolio/4.jpg"></div>
 </a>
 </div>
 </div>
@@ -782,9 +782,9 @@
 <li class="image mb-[40px] float-left w-1/3 pl-[40px]">
 <div class="inner w-full h-auto clear-both float-left overflow-hidden relative">
 <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="Gloria Jenkins" data-category="Image">
-<a class="zoom" href="assets/img/portfolio/3.jpg">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/1-1.jpg" alt />
-<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/portfolio/3.jpg"></div>
+<a class="zoom" href="modules/assets/img/portfolio/3.jpg">
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/1-1.jpg" alt />
+<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/portfolio/3.jpg"></div>
 </a>
 </div>
 </div>
@@ -793,8 +793,8 @@
 <div class="inner w-full h-auto clear-both float-left overflow-hidden relative">
 <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="Selena Gomez" data-category="Detail">
 <a class="popup_info" href="#">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/1-1.jpg" alt />
-<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/portfolio/7.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/1-1.jpg" alt />
+<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/portfolio/7.jpg"></div>
 </a>
 </div>
 </div>
@@ -837,24 +837,24 @@
 <li class="mb-[30px] float-left w-1/2 pl-[30px]">
 <div class="list_inner w-full h-auto clear-both float-left relative">
 <div class="my_image relative">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/4-2.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/portfolio/1.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/4-2.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="modules/assets/img/portfolio/1.jpg"></div>
 </div>
 </div>
 </li>
 <li class="mb-[30px] float-left w-1/2 pl-[30px]">
 <div class="list_inner w-full h-auto clear-both float-left relative">
 <div class="my_image relative">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/4-2.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/portfolio/2.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/4-2.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="modules/assets/img/portfolio/2.jpg"></div>
 </div>
 </div>
 </li>
 <li class="mb-[30px] float-left w-1/2 pl-[30px]">
 <div class="list_inner w-full h-auto clear-both float-left relative">
 <div class="my_image relative">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/4-2.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/portfolio/3.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/4-2.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="modules/assets/img/portfolio/3.jpg"></div>
 </div>
 </div>
 </li>
@@ -868,8 +868,8 @@
 <div class="inner w-full h-auto clear-both float-left overflow-hidden relative">
 <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="Ave Simone" data-category="Detail">
 <a class="popup_info" href="#">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/1-1.jpg" alt />
-<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/portfolio/8.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/1-1.jpg" alt />
+<div class="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/portfolio/8.jpg"></div>
 </a>
 </div>
 </div>
@@ -912,24 +912,24 @@
 <li class="mb-[30px] float-left w-1/2 pl-[30px]">
 <div class="list_inner w-full h-auto clear-both float-left relative">
 <div class="my_image relative">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/4-2.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/portfolio/1.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/4-2.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="modules/assets/img/portfolio/1.jpg"></div>
 </div>
 </div>
 </li>
 <li class="mb-[30px] float-left w-1/2 pl-[30px]">
 <div class="list_inner w-full h-auto clear-both float-left relative">
 <div class="my_image relative">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/4-2.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/portfolio/2.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/4-2.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="modules/assets/img/portfolio/2.jpg"></div>
 </div>
 </div>
 </li>
 <li class="mb-[30px] float-left w-1/2 pl-[30px]">
 <div class="list_inner w-full h-auto clear-both float-left relative">
 <div class="my_image relative">
-<img class="opacity-0 min-w-full" src="assets/img/thumbs/4-2.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/portfolio/3.jpg"></div>
+<img class="opacity-0 min-w-full" src="modules/assets/img/thumbs/4-2.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="modules/assets/img/portfolio/3.jpg"></div>
 </div>
 </div>
 </li>
@@ -961,8 +961,8 @@
 <li class="mb-[50px] float-left w-1/2 pl-[50px]">
 <div class="list_inner w-full clear-both float-left h-auto relative">
 <div class="image relative overflow-hidden">
-<img class="min-w-full opacity-0" src="assets/img/thumbs/40-25.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/news/1.jpg"></div>
+<img class="min-w-full opacity-0" src="modules/assets/img/thumbs/40-25.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/news/1.jpg"></div>
 <a class="tokyo_tm_full_link" href="#"></a>
 </div>
 <div class="details w-full float-left px-[40px] pt-[30px] pb-[25px] bg-white transition-all duration-300">
@@ -998,8 +998,8 @@
 <li class="mb-[50px] float-left w-1/2 pl-[50px]">
 <div class="list_inner w-full clear-both float-left h-auto relative">
 <div class="image relative overflow-hidden">
-<img class="min-w-full opacity-0" src="assets/img/thumbs/40-25.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/news/2.jpg"></div>
+<img class="min-w-full opacity-0" src="modules/assets/img/thumbs/40-25.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/news/2.jpg"></div>
 <a class="tokyo_tm_full_link" href="#"></a>
 </div>
 <div class="details w-full float-left px-[40px] pt-[30px] pb-[25px] bg-white transition-all duration-300">
@@ -1035,8 +1035,8 @@
 <li class="mb-[50px] float-left w-1/2 pl-[50px]">
 <div class="list_inner w-full clear-both float-left h-auto relative">
 <div class="image relative overflow-hidden">
-<img class="min-w-full opacity-0" src="assets/img/thumbs/40-25.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/news/3.jpg"></div>
+<img class="min-w-full opacity-0" src="modules/assets/img/thumbs/40-25.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/news/3.jpg"></div>
 <a class="tokyo_tm_full_link" href="#"></a>
 </div>
 <div class="details w-full float-left px-[40px] pt-[30px] pb-[25px] bg-white transition-all duration-300">
@@ -1072,8 +1072,8 @@
 <li class="mb-[50px] float-left w-1/2 pl-[50px]">
 <div class="list_inner w-full clear-both float-left h-auto relative">
 <div class="image relative overflow-hidden">
-<img class="min-w-full opacity-0" src="assets/img/thumbs/40-25.jpg" alt />
-<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="assets/img/news/4.jpg"></div>
+<img class="min-w-full opacity-0" src="modules/assets/img/thumbs/40-25.jpg" alt />
+<div class="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300" data-img-url="modules/assets/img/news/4.jpg"></div>
 <a class="tokyo_tm_full_link" href="#"></a>
 </div>
 <div class="details w-full float-left px-[40px] pt-[30px] pb-[25px] bg-white transition-all duration-300">
@@ -1166,9 +1166,9 @@
 </div>
 
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/init.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="modules/assets/js/jquery.js"></script>
+<script src="modules/assets/js/plugins.js"></script>
+<script src="modules/assets/js/init.js"></script>
 
 </body>
 </html>
