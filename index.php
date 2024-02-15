@@ -1250,7 +1250,7 @@ if(isset($_POST['submit']))
 		$_SESSION['loggedinUser'] = $email;
 
 		echo "<script>alert('Login Successful')</script>";
-		echo "<script>window.location.href='http://akriti.online/modules/dashboard/dashboard.php	'</script>";
+		echo "<script>window.location.href='http://akriti.online/modules/dashboard/dashboard.php'</script>";
 	}
 	else
 	{
