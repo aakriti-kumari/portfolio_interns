@@ -34,7 +34,7 @@ include('config.php');
 <div class="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
 <div class="logo" data-type="image"> 
 <a href="#">
-<img class="max-w-[100px] max-h-[40px]" src="modules/ui/assets/img/logo/dark.png" alt />
+<img class="max-w-[100px] max-h-[40px]" src="modules/ui/assets/img/logo/dark.jpeg" alt />
 <h3 class="font-black font-poppins text-[25px] tracking-[4px]">AKRITI</h3>
 </a>
 </div>
@@ -66,7 +66,7 @@ include('config.php');
 <div class="leftpart_inner w-full h-auto">
 <div class="logo" data-type="image"> 
 <a href="#">
-<img class="max-w-[150px]" src="modules/ui/assets/img/logo/dark.png" alt />
+<img class="max-w-[150px]" src="modules/ui/assets/img/logo/dark.jpeg" alt />
 <h3 class="font-poppins font-black text-[31px] tracking-[5px]">AKRITI</h3>
 </a>
 </div>
